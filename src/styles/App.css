@@ -1,0 +1,28 @@
+.wrapper {
+	padding: 2.5rem 0;
+}
+
+.container {
+	max-width: var(--container-width);
+	margin: 0 auto;
+	padding: 0 var(--container-padding);
+	height: 100%;
+}
+
+main {
+	background: var(--background-secondary);
+	border-radius: var(--border-radius);
+	padding: var(--main-padding);
+}
+
+@media screen and (max-width: 900px) {
+	.wrapper {
+		padding: 1.5rem 0;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.wrapper {
+		padding: .5rem 0;
+	}
+}
